@@ -20,7 +20,7 @@ public class Choosing {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // TODO code application logic here
         System.out.println("--.PRIMERA PARTE.--");
         System.out.println("----------------------");
@@ -32,7 +32,7 @@ public class Choosing {
         Preferencia();
     }
 
-    public static int[] Puntajes() { //Metodo donde se ingresan puntajes,nem y ranking correspondiente.
+    public static int[] Puntajes() throws IOException { //Metodo donde se ingresan puntajes,nem y ranking correspondiente.
         int mat = 0, leng = 0, cien = 0, hist = 0, nem = 0;
         int puntajes[] = new int[4];
         System.out.println("Ingrese NEM");
@@ -57,90 +57,142 @@ public class Choosing {
     public static void Resultado(int[] x, int n) { //Metodo que muestra ponderaciones por universidad y carrera.
         switch (n) {
             case 1: {
+                System.out.println("===========================================================================================");
                 System.out.println("Ingeniería Civil Informática.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 15%    Ranking: 25%   Lenguaje: 15%   Matematica: 35%   Ciencias: 10%   Historia: 0%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 10%   Matematica: 30%   Ciencias: 10%   Historia: 0%.");
+                System.out.println("===========================================================================================");
+                System.out.println("===========================================================================================");
                 System.out.println("Plan Común Ingeniería Civil.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 15%    Ranking: 25%   Lenguaje: 15%   Matematica: 35%   Ciencias: 10%   Historia: 0%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 10%   Matematica: 30%   Ciencias: 10%   Historia: 0%.");
+                System.out.println("===========================================================================================");
+                System.out.println("===========================================================================================");
                 System.out.println("Ingeniería Civil Ambiental.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 15%    Ranking: 25%   Lenguaje: 15%   Matematica: 35%   Ciencias: 10%   Historia: 0%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 10%   Matematica: 30%   Ciencias: 10%   Historia: 0%.");
+                System.out.println("===========================================================================================");
             }
             break;
             case 2: {
+                System.out.println("===========================================================================================");
                 System.out.println("Derecho.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 10%    Ranking: 30%   Lenguaje: 25%   Matematica: 20%   Ciencias: 0%   Historia: 15%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 20%   Matematica: 15%   Ciencias: 0%   Historia: 15%.");
+                System.out.println("===========================================================================================");
+                System.out.println("===========================================================================================");
                 System.out.println("Contador Publico y Auditor.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 10%    Ranking: 30%   Lenguaje: 20%   Matematica: 30%   Ciencias: 0%   Historia: 10%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 15%   Matematica: 25%   Ciencias: 0%   Historia: 10%.");
+                System.out.println("===========================================================================================");
             }
             break;
             case 3: {
+                System.out.println("===========================================================================================");
                 System.out.println("Ingenieria Comercial.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 10%    Ranking: 30%   Lenguaje: 20%   Matematica: 30%   Ciencias: 10%   Historia: 0%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 10%   Matematica: 30%   Ciencias: 10%   Historia: 0%.");
+                System.out.println("===========================================================================================");
+                System.out.println("===========================================================================================");
                 System.out.println("Contador Publico y Auditor.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 10%    Ranking: 30%   Lenguaje: 20%   Matematica: 30%   Ciencias: 0%   Historia: 10%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 15%   Matematica: 25%   Ciencias: 0%   Historia: 10%.");
+                System.out.println("===========================================================================================");
             }
             break;
             case 4: {
+                System.out.println("===========================================================================================");
                 System.out.println("Nutrición y Dietética.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 10%    Ranking: 30%   Lenguaje: 15%   Matematica: 25%   Ciencias: 20%   Historia: 0%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 15%   Matematica: 15%   Ciencias: 20%   Historia: 0%.");
+                System.out.println("===========================================================================================");
+                System.out.println("===========================================================================================");
                 System.out.println("Kinesiología.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 10%    Ranking: 30%   Lenguaje: 15%   Matematica: 25%   Ciencias: 20%   Historia: 0%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 10%   Matematica: 10%   Ciencias: 30%   Historia: 0%.");
+                System.out.println("===========================================================================================");
+                System.out.println("===========================================================================================");
                 System.out.println("Fonoaudiología.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 10%    Ranking: 30%   Lenguaje: 15%   Matematica: 25%   Ciencias: 20%   Historia: 0%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 25%   Matematica: 10%   Ciencias: 15%   Historia: 0%.");
+                System.out.println("===========================================================================================");
             }
             break;
             case 5: {
+                System.out.println("===========================================================================================");
                 System.out.println("Sociología.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 10%    Ranking: 30%   Lenguaje: 20%   Matematica: 20%   Ciencias: 0%   Historia: 20%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 15%   Matematica: 15%   Ciencias: 0%   Historia: 20%.");
+                System.out.println("===========================================================================================");
+                System.out.println("===========================================================================================");
                 System.out.println("Psicología.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 10%    Ranking: 30%   Lenguaje: 25%   Matematica: 25%   Ciencias: 10%   Historia: 0%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 15%   Matematica: 20%   Ciencias: 15%   Historia: 0%.");
+                System.out.println("===========================================================================================");
+                System.out.println("===========================================================================================");
                 System.out.println("Pedagogía en Historia, Geografía y Educación Cívica.");
                 System.out.println("Universidad de la Frontera:");
                 System.out.println("NEM: 10%    Ranking: 30%   Lenguaje: 30%   Matematica: 20%   Ciencias: 0%   Historia: 10%.");
+                System.out.println("===========================================================================================");
                 System.out.println("Universidad Catolica de Temuco:");
                 System.out.println("NEM: 10%    Ranking: 40%   Lenguaje: 20%   Matematica: 15%   Ciencias: 0%   Historia: 15%.");
+                System.out.println("===========================================================================================");
             }
             break;
         }
     }
 
-    public static void Preferencia() { //Metodo que muetra area preferida y las ponderaciones por carrera.
+    public static void Preferencia() throws IOException { //Metodo que muetra area preferida y las ponderaciones por carrera.
         int z = Mayor(Respuestas(Preguntas()));
+        System.out.println("===========================================================================================");
         System.out.println("");
         System.out.println("Preferencia(s): ");
         switch (z) {
@@ -354,43 +406,21 @@ public class Choosing {
         return x;
     }
 
-    public static int LeerNum() { //Metodo para leer variables del tipo entero
+    public static int LeerNum() throws IOException { //Metodo para leer variables del tipo entero
         int x = 0;
-        BufferedReader leer = new BufferedReader(new InputStreamReader(System.in));
-        try {
-            x = leer.read();
-
-        } catch (IOException ex) {
-            Logger.getLogger(Choosing.class
-                    .getName()).log(Level.SEVERE, null, ex);
-        }
-        return x;
-    }
-
-}
-
-    public static char Leer() {
-        char x = 0;
-        do {
-            try {
-                x = (char) System.in.read();
-            } catch (IOException ex) {
-                Logger.getLogger(Choosing.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        } while (x != 'n' && x != 's');
-        return x;
-    }
-
-    public static int LeerNum() {
-        int x = 0;
+        boolean valor;
         BufferedReader leer = new BufferedReader(new InputStreamReader(System.in));
         do {
             try {
-                x = leer.read();
-            } catch (IOException ex) {
-                Logger.getLogger(Choosing.class.getName()).log(Level.SEVERE, null, ex);
+                x = Integer.parseInt(leer.readLine());
+                valor = true;
+
+            } catch (Exception e) {
+                System.out.println("Ingrese solo numeros.");
+                System.out.println("------------------------------------------");
+                valor = false;
             }
-        } while (x < 1 || x > 3);
+        } while (valor == false);
         return x;
     }
 
